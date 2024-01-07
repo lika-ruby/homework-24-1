@@ -262,6 +262,31 @@ body {
   justify-content: space-between;
 }
 
+.doing-item {
+  position: relative;
+}
+
+.doing-text-container {
+  background: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 370px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.doing-subtitle {
+  color: var(--second-accent-color);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
 /* Команда */
 
 .team {
